@@ -58,3 +58,16 @@ function showCities(olUlElement, cities, timer) {
 
 const ol = document.querySelector("ol");
 showCities(ol, villes, 2000);
+
+/* let monImage = document.querySelector('img');
+let autreImage = monImage.cloneNode(true);
+let parentOfAll = document.querySelector('body')
+var i = 0;
+setInterval(function() {
+  if(i%2 == 0)
+    parentOfAll.insertBefore(autreImage, parentOfAll.firstChild)
+  else 
+    parentOfAll.removeChild(autreImage);
+  i++;  
+  }, 1000);
+ */

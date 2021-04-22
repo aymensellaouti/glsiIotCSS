@@ -16,3 +16,5 @@ function addImage(src, width, height, classes, parent, isFirst) {
     parent.appendChild(image);
   }
 }
+let mybody = document.querySelector("body");
+addImage("assets/images/as.jpg", 100, 100, [], mybody, false);
